@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: roboto, sans-serif;
+  font-size: 10px;
+  /*line-height: 1.5;*/
+}
+
+h1{
+  font-size: 2em;
+  font-weight: 400;
+  color: #fff;
+	font-family: roboto,sans-serif;
+}
+
+h2{
+  font-size: 1.9em;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 1.2em;
+  font-weight: 450;
+}
+
+.container{
+  margin: 0 auto;
+  width: 375px;
+}
+
+nav{
+  margin: 0 auto;
+  position: fixed;
+  width: 375px;
+  background-color: #00BFA5;
+  height: 60px;
+}
+
+.bus-stop{
+	text-align: center;
+	padding-top: 3%
+	height: 5em;
+	padding-top: 5%
+}
+
+.arrow-left{
+	text-indent: 5%;
+	width: 10%;
+	padding-top: 5%;
+	float: left;
+	color: #fff;
+}
+.hamburger{
+	width: 10%;
+	padding-top: 5%;
+	float: right;
+	color: #fff;
+}
+
+
+.bus-list{
+  background-color: #d3d3d3;
+/*  border: 1px solid #000000;
+  float: left;*/
+  width: 100%;
+  margin-top: 50px;
+	display: inline-block
+  }
+
+.location{
+  background-color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 0%;
+  border-bottom: 1px solid #00BFA5;
+  margin-top: 0%;
+  line-height: 2em;
+}
+
+ .number{
+	 float: left;
+	 width: 5%;
+	 padding-top: 7%;
+	 padding-bottom: 5%;
+}
+
+/* .arrow{
+  float: right;
+  width: 10%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  } */
+
+.content{
+  width: 66.66%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  float: left;
+	text-indent: 20%;
+	height: 5em;
+  }
+
+	.RRcontent{
+		color: #b00020;
+		width: 66.66%;
+	  padding-top: 5%;
+	  padding-bottom: 5%;
+	  float: left;
+		text-indent: 20%;
+		height: 5em;
+	}
+
+	.OOScontent{
+		color: #6e6e6e;
+		width: 66.66%;
+	  padding-top: 5%;
+	  padding-bottom: 5%;
+	  float: left;
+		text-indent: 20%;
+		height: 5em;
+	}
+
+.location:hover{
+  background-color: #A9A9A9;
+}
+.star{
+	float: right;
+  width: 15%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+	color: #00BFA5;
+}
+
+.icon-background {
+    color: #00BFA5;
+}
+ .map{
+	   padding-bottom: 3%;
+		 float:right;
+		 padding-right: 3%;
+ }
+
+@media screen and (min-width: 575px){
+   div {
+
+  }
+}
