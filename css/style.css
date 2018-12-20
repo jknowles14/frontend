@@ -52,6 +52,8 @@ table {
   box-sizing: border-box;
 }
 
+
+
 body {
   background-color: #333;
   font-family: roboto, sans-serif;
@@ -79,6 +81,7 @@ h3{
 .container{
   margin: 0 auto;
   width: 375px;
+	position: relative;
 }
 
 nav{
@@ -91,9 +94,9 @@ nav{
 
 .bus-stop{
 	text-align: center;
-	padding-top: 3%
+	padding-top: 3%;
 	height: 5em;
-	padding-top: 5%
+	padding-top: 5%;
 }
 
 .arrow-left{
@@ -130,6 +133,7 @@ nav{
   border-bottom: 1px solid #00BFA5;
   margin-top: 0%;
   line-height: 2em;
+	height: 65px;
 }
 
  .number{
@@ -180,23 +184,16 @@ nav{
 }
 .star{
 	float: right;
-  width: 15%;
-  padding-top: 7%;
-  padding-bottom: 5%;
+  width: 13%;
+  vertical-align: middle;
+	padding-top: 5%;
+	padding-right: 9%;
 	color: #00BFA5;
 }
 
 .icon-background {
-    color: #00BFA5;
+  color: #00BFA5;
 }
  .map{
-	   padding-bottom: 3%;
-		 float:right;
-		 padding-right: 3%;
+  position: absolute;
  }
-
-@media screen and (min-width: 575px){
-   div {
-
-  }
-}
