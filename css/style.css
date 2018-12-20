@@ -92,6 +92,11 @@ nav{
   height: 60px;
 }
 
+.status-bar{
+  background-image: url(../images/Androidstatusbar.png);
+  background-color: #000;
+}
+
 .bus-stop{
 	text-align: center;
 	padding-top: 3%;
@@ -106,6 +111,7 @@ nav{
 	float: left;
 	color: #fff;
 }
+
 .hamburger{
 	width: 10%;
 	padding-top: 5%;
@@ -190,10 +196,14 @@ nav{
 	padding-right: 9%;
 	color: #00BFA5;
 }
-
+.bottombar{
+	background-image: url(../images/Androidnavigationbar.png);
+  background-color: #000;
+}
 .icon-background {
   color: #00BFA5;
 }
- .map{
-  position: absolute;
- }
+.map {
+	 padding-left: 290px;
+	 margin-top: -90px;
+}
