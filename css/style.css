@@ -93,7 +93,6 @@ nav{
 }
 
 .status-bar{
-  background-image: url(../images/Androidstatusbar.png);
   background-color: #000;
 }
 
@@ -197,7 +196,6 @@ nav{
 	color: #00BFA5;
 }
 .bottombar{
-	background-image: url(../images/Androidnavigationbar.png);
   background-color: #000;
 }
 .icon-background {
@@ -206,4 +204,5 @@ nav{
 .map {
 	 padding-left: 290px;
 	 margin-top: -90px;
+	 position: static;
 }
